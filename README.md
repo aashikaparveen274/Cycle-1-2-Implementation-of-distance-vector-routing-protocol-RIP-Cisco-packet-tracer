@@ -1,6 +1,8 @@
+# Name : Aashika Parveen M R
+# Reg.no: 212223060002
 # Cycle-1-2-Implementation-of-distance-vector-routing-protocol-RIP-Cisco-packet-tracer
 # 🧪 EXPT.NO: 2  
-📅 DATE: *(Insert Date)*
+📅 DATE: *(14-11-2026)*
 
 ## 📌 TITLE  
 **Implementation of Distance Vector Routing Protocol (RIP)**
@@ -46,7 +48,7 @@ To connect computers in multiple networks using Distance Vector Routing Protocol
 *(Insert diagram or screenshot from Packet Tracer)*
 
 ---
-<img width="1082" height="423" alt="image" src="https://github.com/user-attachments/assets/c87b4e16-a5ab-4f20-acba-4140468d3b4d" />
+<img width="840" height="542" alt="image" src="https://github.com/user-attachments/assets/ffcdce2d-d32b-4c73-82d8-59ae5408b095" />
 
 ## 🧭 PROCEDURE
 
@@ -116,13 +118,15 @@ Router(config-router)# exit
 
 ## 🔍 Show RIP Routing Table
 ### Router# show ip route
+<img width="702" height="246" alt="image" src="https://github.com/user-attachments/assets/033250ff-08ac-4d88-90c8-4c3f539f129f" />
+
 ### Expected output on Router0:
 ```
 R 192.168.3.0 [120/1] via 192.168.2.2, FastEthernet0/1
 R 192.168.4.0 [120/1] via 192.168.2.2, FastEthernet0/1
 ```
 ---
-<img width="882" height="687" alt="image" src="https://github.com/user-attachments/assets/cdc69c5a-fd55-4456-8f96-b4d7cbbb0f11" />
+
 
 ### Expected output on Router1:
 ```
@@ -130,7 +134,8 @@ R 192.168.1.0 [120/1] via 192.168.2.1, FastEthernet0/0
 R 192.168.2.0 [120/1] via 192.168.2.1, FastEthernet0/0
 ```
 ---
-<img width="864" height="839" alt="image" src="https://github.com/user-attachments/assets/d9170e29-0377-4661-83a4-7c3df139bfb4" />
+<img width="791" height="325" alt="image" src="https://github.com/user-attachments/assets/1944e47d-4432-42db-8f4f-b27194460c14" />
+
 
 ## 📶 Ping Test Between PCs
 Example: Ping from PC0 to PC3
@@ -141,7 +146,8 @@ C:\> ping 192.168.3.2
 
 ## 📤 OUTPUT
 ---
-<img width="972" height="487" alt="image" src="https://github.com/user-attachments/assets/dbb66617-e002-49e9-aba7-4051c2831995" />
+<img width="557" height="392" alt="image" src="https://github.com/user-attachments/assets/f77ef637-2105-44d6-85b2-b7b80a2a2673" />
+
 
 ## 📝 RESULT
 Thus, the computers in multiple networks using Distance Vector Routing Protocol are successfully connected and the connectivity between them is verified.
